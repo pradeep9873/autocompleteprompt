@@ -1,0 +1,30 @@
+{
+  "name": "autocompleteprompt",
+  "description": "Autocomplete prompt for inquirer",
+  "version": "1.2.1",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeep9873/autocompleteprompt.git"
+
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Pradeep Nair <nair.pradeep@gmail.com>",
+  "contributors": [
+    "Martin Hansen <martin@martinhansen.no>"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ansi-escapes": "^3.0.0",
+    "inquirer": "^3.2.2",
+    "chalk": "^2.0.0",
+    "run-async": "^2.3.0"
+  }
+}
